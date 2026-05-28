@@ -1,0 +1,17 @@
+{
+  "name": "claude-prompter",
+  "owner": {
+    "name": "Pavle Aleksic"
+  },
+  "metadata": {
+    "description": "A prompt-coaching plugin that enhances rough drafts into strong, domain-aware prompts.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-prompter",
+      "source": "./",
+      "description": "Type /cp or /claude-prompt with a rough idea and get back a polished, domain-aware prompt. Includes a template library (/cp-templates), a proactive prompt-coach skill, clarifying questions only when essential, and the option to save prompts to a personal library."
+    }
+  ]
+}
